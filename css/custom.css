@@ -1,0 +1,327 @@
+ol {
+    list-style-type: none;
+}
+.notification-bell
+{
+    float: right;
+    margin-top: 10px;
+}
+.search-box-top{
+    float: left;
+    margin-top: -6px;
+}
+.search-icn-box:hover{
+    content: url('../images/svg-img/icon-31-search-hover.svg');
+}
+
+
+
+.search-form .form-control::placeholder {
+    color: #c5c5c5;
+    opacity: 1; /* Firefox */
+}
+
+.search-form .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #c5c5c5;
+}
+
+.search-form .form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #c5c5c5;
+}
+.dashboard-main-page h5{
+    font-size: 14px;
+    text-align: left;
+    color: #4a4a4a;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+}
+.recent-proj-container{
+    padding: 12px 15px;
+}
+.recent-proj-container h4{
+    font-size: 16px;
+    text-align: left;
+    color: #4a4a4a;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    display: inline-block;
+    margin-bottom: 0;
+    border-bottom: 2px solid transparent;
+}
+.recent-proj-container h4:hover{
+    border-bottom: 2px solid #ddd;
+}
+.recent-proj-container h5{
+    font-size: 12px;
+    text-align: left;
+    color: #b5b5b5;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    margin: 0;
+}
+.recent-proj-container .recent-proj-hover-icn{
+    display: none;
+    float: right;
+    margin-top: -38px;
+}
+.recent-proj-container:hover .recent-proj-hover-icn{
+    display: block;
+}
+.recent-proj-container .recent-proj-hover-icn img{
+    margin-left: 30px;
+}
+
+.recent-activity-container ul li{
+    border-top: 1px solid #e6e6e6;
+    padding: 20px 10px 10px 10px;
+}
+.recent-activity-container ul li h3{
+    font-size: 14px;
+    text-align: left;
+    color: #4a4a4a;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    margin: 0;
+    float: left;
+}
+.recent-activity-container ul li span{
+    font-size: 14px;
+    text-align: left;
+    color: #15a7e4;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    margin-left: 10px;
+}
+.recent-activity-container ul li p{
+    font-size: 12px;
+    text-align: left;
+    color: #b5b5b5;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+}
+
+.recent-activity-container ul li img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.right-container-main .Live-Help {
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #15a7e4;
+  }
+
+.subscription-message {
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #b5b5b5;
+    margin-bottom: 100px;
+
+}
+.subscription-message span {
+    color: #15a7e4;
+}
+.right-container-main h2{
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+    margin: 0;
+}
+.left-container-main .row > div{
+    padding-right: 0;
+    width: 220px;
+}
+.dashboard-top-btn{
+    height: 180px;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    padding: 30px 40px 30px 40px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+}
+.dashboard-top-btn:hover{
+    border: 1px solid #eb5d74;
+}
+
+
+
+.dashboard-top-btn.small{
+    height: 85px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 25px 10px 25px 15px;
+    position: relative;
+}
+.dashboard-top-btn.small.last{
+    margin-top: 95px;
+}
+.new-note-alert p{
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.53;
+    letter-spacing: normal;
+    color: #eea800;
+}
+.new-note-alert img{
+    position: absolute;
+    top: -16px;
+    right: 6px;
+}
+
+
+.dashboard-top-btn.small img{
+    float: left;
+}
+.dashboard-top-btn.small h3 {
+    margin-top: 7px;
+    margin-left: 50px;
+}
+.dashboard-top-btn h3{
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.22;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #4a4a4a;
+    margin: 0;
+    margin-top: 14px;
+}
+
+
+.top-right-nav > li > a span {
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #989898;
+    margin-right: 10px;
+    margin-left: 70px;
+  }
+.page-header .breadcrumb-dashboard h5 {
+    font-size: 14px;
+    text-align: left;
+    color: #989898;
+    font-weight: 400;
+}
+.breadcrumb-dashboard{
+    padding: 0;
+    line-height: 0;
+}
+.breadcrumb-dashboard li{
+    display: inline-block;
+}
+.breadcrumb-dashboard>li+li {
+    padding: 0 0 0px 30px;
+    position: relative;
+}
+.breadcrumb-dashboard>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: ">";
+    position: absolute;
+    top: 8px;
+    left: 4px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+  .LOGO-NTEHub {
+    width: 77px;
+    height: 15px;
+    object-fit: contain;
+  }
+
+.home-icon-top{
+    width: 40px;
+    height: 30px;
+}
+.home-icon-top:hover {
+    content: url('../images/svg-img/icon-147-dashboardhome-hover.svg');
+}
+
+.user-settings-area{
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.user-settings-area .tabs-user-settings{
+        width: auto;
+    margin-left: 50px;
+    display: inline-block;
+}
+.user-settings-area .tabs-user-settings img{
+    float: left;
+    margin-left: 10px;
+}
+.user-settings-area .tabs-user-settings h2{
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.69;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #4a4a4a;
+    float: left;
+    border-bottom: 2px solid transparent;
+}
+.user-settings-area .tabs-user-settings h2:hover{
+    border-bottom: 2px solid #ddd;
+}
+
+@media (max-width: 1610px){
+    .left-container-main .row > div {
+        width: 30%;
+    }
+    .dashboard-top-btn.small.last {
+        margin-top: 0;
+    }
+}
+
+
+
+@media (max-width: 1300px){
+    .left-container-main .row > div {
+        padding-right: 0;
+        width: 45%;
+    }
+}
